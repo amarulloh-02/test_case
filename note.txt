@@ -1,0 +1,215 @@
+085778304590
+088801150010
+085693350822
+085717653701
+amarulloh505@gmail.com
+dwayne270298@gmail.com
+stallone270298@gmail.com
+!@#$%^&*()_-+={[}]|\:;"'<,>.?/123abc
+SPP220700008
+
+https://www.flaticon.com/free-icons/user
+https://www.name-generator.org.uk/nickname/
+
+//github
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amarulloh-02/web_vote.git
+git push -u origin main
+
+template admin
+-stisla
+-mazer
+
+update user manual membership 21/09
+
+====================================================================================================================================
+-LINTAS
+(progress)
+
+Selamat sore tim, berikut laporan testing Lintas 103 tgl 16/01/2023 :
+305. Penjualan tiket PP untuk offline dan online, dengan opsi fitur voucher ( voucher hanya berlaku di pembelian tiket pp)
+perubahan proses tiket PP :
+1. Perubahan tab Jadwal Pulang otomatis berpindah jika sudah memilih seat di tab Jadwal Berangkat (OK)
+2. Perubahan warna button Lanjutkan ke halaman isi penumpang, diganti dari warna hijau ke warna lain (OK)
+3. Penambahan informasi pada halaman pembayaran, ditampilkan rekomendasi voucher tiket PP dengan kondisi tanggal berlaku tiket PP masih aktif pada saat proses transaksinya (OK)
+4. Untuk penggunaan Voucher PP dibuatkan otomatis, tanpa harus menginput manual kode voucher oleh team CSO (OK)
+
+Terima Kasih 🙏🏻
+
+------------------------------------------------------------------------------------------------------------------------------------
+siang mas @Mas Reno, berikut dokumen terkait update point-point yg sudah di development :
+302. Membership - mendapatkan point setiap pembelian tiket
+306. Laporan registrasi member beserta dengan jumlah tiket yang dibeli
+
+untuk dokumennya mohon dicek dulu ya mas sudah ok atau belumnya, untuk diinfo dan dikirim ke Pak Indra 🙏🏻
+------------------------------------------------------------------------------------------------------------------------------------
+
+siang mas, saya mau info untuk point-point yg akan dinaikkan ke production pada malam ini, berikut poin-point nya :
+
+1. Membership - point transaksi, nominal point untuk satu kali transaksi yang awalnya mendapat 1 point pertransaksi menjadi 1000 point pertransaksi
+2. Membership - mendapatkan point ekstra dalam momen tertentu, seperti ultah, atau anniversary lintas - (Menu manajemen member -> Daftar member event)
+3. Membership redeem voucher – Website dan Backend
+4. Laporan member yang melakukan redeem point – (Menu manajemen reporting -> Laporan redeem member) 
+5. Laporan performance dari pak bambang - operational
+6. Download QR Code pada master cabang
+
+ping 111.221.47.199
+ping 111.221.47.205
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+indramr.lintas@gmail.com
+hilda@beningluxury.com
+
+prod
+-blok rute tertentu untuk voucher
+-checkin/checkout paket tidak ada loader
+-dibuat order by ascending berdasarkan waktu dan diurutkan jam nya pada filter jalur keberangkatan, di history cabang
+-cek ulang lap penggunaan voucher, karena data tidak masuk ke keuangan promo
+
+103
+-payment reference di pg ambil eksternal order id
+-cetakan excel laporan pengeluaran armada + bo unit
+-number format biaya op laporan armada
+-email menunggu pembayaran via bca
+
+-pada daftar member -> daftar trx keberangkatan urutan perlu disesuaikan
+-daftar trx member isi value pada interval tgl hari ini
+-filter nama channel daftar promosi
+
+-daftar member trx dan lap. rekap trx member jika di hidden dikeuangan data masih tampil
+
+-daftar stock voucher redeem, delete, searching, pagination belum fungsi
+
+-saat mutasi pnp, point member jadi hilang karena trx id nya beda
+-cetakan excel daftar trx member belum fungsi
+-excel lap redeem member, tgl redeem belum sesuai
+-laporan redeem member belum sesuai filter tgl nya
+-lap performance filter wilayah tidak fungsi
+
+-Proses redeem voucher belum masuk ke auditlog
+
+Update point-point lintas ke production :
+
+Tanggal 14-02-2023
+1. Laporan Performance (Backend) 
+- Cetakan excel laporan performance untuk filter percabang
+- Perhitungan total rata-rata penumpang dan rental
+2. Paket same day promo masih bisa tampil di rute lain karena pengaruh delay saat pencarian jadwal (Backend)
+3. Laporan harian kasir processing selain dari login superadmin dan administrator (Backend)
+
+tgl 16 april
+tgl 8 mei								
+
+
+Review :
+4. Lap. klasifikasi member berdasarkan kategorinya (310)
+
+1. Pembelian paket kargo dengan tambahan paket same day promo pada backend
+ - Field input agen tidak dibuat mandatory, jika pilih agen maka yg tampil hanya di agen tersebut, jika tidak pilih agen maka yg tampil ke semua agen
+2. Laporan performance dari pak bambang (operational)
+- Cetakan excel summary percabang dibuat digabung semua, tidak dipisah per-sheet 
+
+------------------------------------------------------------------------------------------------------------------------------------
+cek laporan performance
+-rekap biaya OP (total = jumlah semua dari detail biaya OP per rute)
+-lap. omset (BO Unit = total jumlah dari rekap biaya OP) (L/R Kotor = BO Unit - Total omset pnp + Diskon)
+-finance
+
+cek laporan pengeluaran armada + BO unit
+-summary (pendapatan - pengeluaran)
+
+-update di tujuan akhir/sampai
+last_update_cartrack
+prev_update_status
+
+door to door
+zona 1 10k per pnp
+zona 1 30k per pnp
+
+
+Selamat malam tim, berikut poin-poin yg berhasil update ke production dan hasil testing pada production tanggal 14/02/2023 :
+
+1. Paket same day promo masih bisa tampil di rute lain karena pengaruh delay saat pencarian jadwal (Backend) ✅
+2. Laporan harian kasir processing selain dari login superadmin dan administrator (Backend) ✅
+3. Cek reservasi pada backend ✅
+4. Cek reservasi pada website via channel BCA dan Midtrans ✅
+5. Cek reservasi pada android via channel BCA dan Midtrans ✅
+
+Terima Kasih 🙏🏻
+
+====================================================================================================================================
+-BENING
+(progress)
+
+Selamat sore tim, berikut link notulen meeting dengan tim Bening, mohon dicek kembali ya om sudah sesuai atau belumnya, terima kasih 🙏🏼
+https://docs.google.com/document/d/1v0LRwsmmQk-tj8HiM_Nme4HWBxQnlxov/edit
+
+Selamat sore tim, berikut laporan testing Bening 103 tgl 06/02/2023 :
+118. Related product ambil dari kategori atau berdasarkan kategori jewellery (Web - Detail Produk) OK
+125. Filter pada katalog produk akan menampilkan style rings, bracelets, earings dan necklaces dari pilihan sub kategori (Web - Katalog Produk) OK
+
+Terima Kasih 🙏🏻
+
+Selamat sore tim, berikut link notulen hasil meeting dengan Tim Bening :
+
+https://docs.google.com/document/d/1WcgAv2t6WrCpgUqqD8CCrWuHBbHUVduD/edit
+
+Terima Kasih 🙏🏼
+
+(issue)
+
+notulen :
+- related produk ambil dari style jewelry. hold
+- tambah master data untuk style jewelry. hold
+
+
+banner : 1024x400
+
+Test Case 103 Membership tgl 13/08/2022
+https://docs.google.com/spreadsheets/d/14Ow5n_Rtr480JOFgIRO5auAHeg1pKIKrDsJlAB4uSBY/edit#gid=1250329224
+
+fitur yg belom
+-cari produk
+-rate/ulasan
+
+select * from ncr_kategori_barang
+select * from ncr_style_backend
+
+select * from ncr_barang_backend where item_name in ('Cordelia Pendant','Noelle Pendant')
+
+update ncr_barang_backend set kategori_id = 10, sub_kategori_id = 29, style_id = 29 where id in (1044,1054)
+
+====================================================================================================================================
+-MyGas
+(note)
+-stok dikurangi saat sudah di proses sj 
+
+1. Terbit SPA
+2. Pengambilan/delivery (setelah buat SJ Sementara)
+3. Selesai Pengiriman
+4. Terbit Invoice
+
+===================================================================================================================================
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet et in delectus laboriosam harum consequatur nam dolore cum rem consequuntur. Quisquam aliquid nostrum excepturi nulla ipsum esse non maxime eum, sapiente dolores aspernatur laudantium nesciunt velit libero cupiditate exercitationem officiis eos corporis? Magnam dolores enim doloremque, accusantium deserunt maxime aspernatur fuga officia nesciunt placeat animi dicta dolorem dolore consequuntur dolor earum nisi ad veniam eius facilis voluptate. Incidunt, reiciendis? Numquam quia minima cum id debitis, libero nihil praesentium dignissimos dolorum sequi officiis ducimus consequuntur voluptas necessitatibus quos dolorem impedit, dolore temporibus velit rerum doloremque fuga dicta sit! Ex, porro tempora.
+
+
+select * from app_users
+select * from ncr_customer
+
+delete from app_users where id = '23'
+delete from ncr_customer where id = '23'
+
+select * from ncr_customer where terima_email = 0 and flag_aktif = 1
+select * from ncr_customer where terima_email = 1
+
+select * from ncr_group_customer where jenis_group_id = '2'
+
+select * from ncr_news_promosi
+update ncr_news_promosi set is_send = 0 where id = 47
+update ncr_news_promosi set is_send = 0 where id = 48
+
+select * from ncr_auditlog_member order by id desc
